@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #555358;
+  color: #C6CA53;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.pomodoro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  position:relative;
+}
+
+.title{
+  font-size: 4em;
+  position: absolute;
+  width: 100%;
+}
+
+.timer {
+  font-size: 8em;
+}
+
+.meassage {
+  font-size: 3em;
+}
+
+.message1{
+  font-size: 0.8em;
+}
+
+
